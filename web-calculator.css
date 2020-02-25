@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg), url();
+    background-size: cover;
+    padding: 355px;
+    width: 339px;
+    right:188px;
+    position: absolute;
+}
+.sun{
+
+    background-color: yellow;
+    border-radius: 50%
+    
+    
+}
+h1{
+    font-family: tahoma, sans-serif;
+    font-size: medium;
+    color:#00FFFF;
+    text-align: center;
+}
