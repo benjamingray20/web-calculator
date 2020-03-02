@@ -1,21 +1,71 @@
 body{
     background-image: url(https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg), url();
     background-size: cover;
-    padding: 355px;
-    width: 339px;
-    right:188px;
-    position: absolute;
-}
-.sun{
-
-    background-color: yellow;
-    border-radius: 50%
-    
-    
+    margin:350;
+    position: relative;
 }
 h1{
     font-family: tahoma, sans-serif;
     font-size: medium;
     color:#00FFFF;
     text-align: center;
+} 
+#a{
+    position: relative;
+    display:block;
+    left:280px;
+    top:-10px;
 }
+#b{
+    position: relative;
+    display:block;
+    left:280px;
+    top:-10px;
+}
+.add{
+    position: relative;
+    left:250px;
+}
+
+.subtract{
+    position:relative;
+    top:50px;
+    left:156px;
+}
+.divide{
+    position: relative;
+    left:163px;
+}
+.multiply{
+    position: relative;
+    left:70px;
+    top:50px;
+}
+button{
+    
+        background-color: transparent;
+        color: #00FFFF;
+        border: 2px solid #e7e7e7;
+        padding: 12px 24px;
+        text-align: center;
+        width: 90px;
+        font-size: 12xpx;
+        border-radius: 8px;
+        transition-duration: .4s;
+        cursor: pointer; 
+          
+       }
+      button:hover{
+        background-color: #00FFFF;
+        color:black;
+     }
+
+     .addIcon{
+        background-color: transparent;
+        color: #00FFFF;
+        position: relative;
+        left:260px;
+        top:8px;
+     }
+    
+

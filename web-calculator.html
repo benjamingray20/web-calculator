@@ -1,20 +1,25 @@
 <html>
 
-    <head>
-        <h1>
-            This calculator will add the inputs of box 1 and box 2 together.
-        </h1>
-       
-        
-        <script src='web-calculator.js'></script>
-        <link rel='stylesheet' href="web-calculator.css"></link>
-    </head>
+<head>
+    <h1>
+        Enter one number into box A and one number into box B. Then chose your operation.
+    </h1>
 
-    <body>
-        <div class='sun'></div>
-        <input id='a' type='number' />
-        <input type="button" value="+"> <!--I just wanted this to be an icon but don't know how to do that.-->
-        <input id='b' type='number'/>
-        <input type='button' onclick='sum()' value='SUM'/>
-    </body>
+
+    <script src='web-calculator.js'></script>
+    <link rel='stylesheet' href="web-calculator.css">
+    </link>
+</head>
+
+<body>
+    <span class="addIcon">A</span>
+    <input id='a' type='number' />
+    <span class="addIcon">B</span>
+    <input id='b' type='number' />
+    <button type='button' class='add' onclick='ADD()'>Add</button>
+    <button type='button' class='subtract' onclick='SUBTRACT()'>Subtract</button>
+    <button type='button' class='divide' onclick='DIVIDE()'>Divide</button>
+    <button type='button' class='multiply' onclick='MULTIPLY()'>Multiply</button>
+</body>
+
 </html>
